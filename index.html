@@ -1,12 +1,133 @@
 <!DOCTYPE html>
-<html lang="eng">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>hohoho</title>
-<head>
-<body>
-   яебу
-<body> 
-</html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content ="Первый интерактивный сайт">
+        <meta name="keywords" content ="сайти, html">
+        
+        <title>Главная страница</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <Body>
+      <!-- Шапка запроса -->
+      <header>
+        <h1>Новый запрос</h1>
+        <input type="button" value="X">
+        <hr>  
+      
+      </header>
+
+      <main>
+       <!-- Пока хз для чего -->
+      </main>
+
+      <aside>
+        <!-- Первая часть -->
+        <form action="" method="post">
+
+        <label for="name">Название</label>
+        <input type="text" placeholder="Введите название" id="name"> <br><br>
+
+        <label for="responsible">Ответственный</label>  
+        <select id="responsible"> 
+          <option>Константин Ивлев</option>
+        </select>  <br><br>
+
+        <label for="getting_started">Начало работы</label>  
+        <input type="date" id="getting_started">  <br><br>
+        
+        <label for="end_of_work">Конец работы</label>  
+        <input type="date" id="end_of_work">  <br><br>
+
+        <label for="city">Город</label>  
+        <select id="city">
+          <option>Москва</option>
+          <option>Тверь</option>
+          <option>Санкт-Петербург</option>
+          <option>Краснодар</option>
+        </select>  <br><br>
+
+        <label for="type_work">Тип работы</label>  
+        <select id="type_work">
+          <option>Удаленная</option>
+          <option>Очная</option>
+        </select> <br><br>
+
+        <label for="graph">График</label>  
+        <select id="graph">
+          <option>5/2</option>
+          <option>3/4</option>
+          <option>4/3</option>
+          <option>2/2</option>
+        </select>  <br><br>
+
+        <label for="office">Офис</label>  
+        <input type="text" id="office" value="Удаленная работа" readonly>  <br><br>
+
+        <label for="project">Проект</label>  
+        <select id="project">
+          <option disabled selected>Выберите проект</option>
+          <option>2/2</option>
+        </select>  <br><br>
+
+        <label for="finance">Финансирование</label>  
+        <select id="finance">   
+          <option>DU-H</option>
+          <option>RY-K</option>
+        </select> <br><br>
+
+        <label for="task_description">Описание задачи</label>
+        <textarea id="task_description" placeholder="Опишите основные задачи исполнителя" maxlength="1500"></textarea> <br><br>
+        
+        <!-- Вторая часть -->
+        <hr> 
+        <h2>Требуемая компетенция</h2>
+
+        <label for="competence">Компетенция</label>
+        <select id="competence">
+          <option>Python</option>
+          <option>Java</option>
+          <option>PHP</option>
+          <option>C++</option>
+          <option>C#</option>
+          <option>JavaScript</option>
+        </select> <br><br>
+
+        <label for="grade">Грейд</label>
+        <select id="grade"> 
+          <option>Выберите грейд</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select> <br><br>
+
+        <label for="number_of_specialists">Количество специалистов</label>
+        <input type="text" value="4" id="number_of_specialists" readonly> <br><br>
+
+        <label for="requirements">Требования</label>
+        <textarea id="requirements" placeholder="Опишите основные задачи исполнителя" maxlength="1500"></textarea> <br><br>
+
+        <label for="responsibilities">Обязанности</label>
+        <textarea id="responsibilities" placeholder="Опишите основные задачи исполнителя" maxlength="1500"></textarea> <br><br>
+
+        <label for="additional_requirements">Дополнительные требования</label>
+        <textarea id="additional_requirements" placeholder="Опишите основные задачи исполнителя" maxlength="1500"></textarea> <br><br>
+        </form>
+      
+      </aside>
+
+      <footer>
+        <!-- Конец запроса -->
+        <form action="" method="post">
+        <hr> 
+        <input type="submit" value="Сохранить как черновик">
+        <input type="submit" value="Создать запрос">
+        </form>
+        <script></script>
+      </footer>
+
+    </Body>
+
+    </html>
