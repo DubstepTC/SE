@@ -23,9 +23,10 @@ function save(el) {
         || document.getElementById('additional_requirements').value == ""
     )
         fail = "Заполните все поля";
-    else if(name.lenght <= 1 || name.lenght > 100)
+    else if(document.getElementById('name').value.lenght <= 1 || document.getElementById('name').value.lenght > 100)
         fail = "Введите корректное имя";
-    
+    else if (typeof document.getElementById('competence').value !== 'number')
+        fail = "Введите корректное компетенцию";
     if(fail != ""){
         document.getElementById('error').innerHTML = fail;
         return false;
@@ -94,9 +95,10 @@ function report(el) {
         || document.getElementById('additional_requirements').value == ""
     )
         fail = "Заполните все поля";
-    else if(name.lenght <= 1 || name.lenght > 100)
+    else if(document.getElementById('name').value.lenght <= 1 || document.getElementById('name').value.lenght > 100)
         fail = "Введите корректное имя";
-    
+    else if (typeof document.getElementById('competence').value !== 'number')
+        fail = "Введите корректное компетенцию";
     if(fail != ""){
         document.getElementById('error').innerHTML = fail;
         return false;
