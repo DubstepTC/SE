@@ -1,0 +1,8 @@
+c:\Users\User\source\SE\reqest\bin\Debug\reqest.dacpac
+c:\Users\User\source\SE\reqest\obj\Debug\reqest.sqlproj.AssemblyReference.cache
+c:\Users\User\source\SE\reqest\obj\Debug\Model.xml
+c:\Users\User\source\SE\reqest\obj\Debug\refactor.xml
+c:\Users\User\source\SE\reqest\obj\Debug\postdeploy.sql
+c:\Users\User\source\SE\reqest\obj\Debug\predeploy.sql
+c:\Users\User\source\SE\reqest\obj\Debug\reqest.dll
+c:\Users\User\source\SE\reqest\obj\Debug\reqest.pdb
