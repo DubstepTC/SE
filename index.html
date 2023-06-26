@@ -26,7 +26,7 @@
 
       <aside>
         <!-- Первая часть -->
-        <form action="" method="post">
+        <form action="" method="post" id="main-form">
 
         <label for="name">Название</label>
         <input type="text" placeholder="Введите название" id="name"> <br><br>
@@ -116,20 +116,22 @@
 
         <label for="additional_requirements">Дополнительные требования</label>
         <textarea id="additional_requirements" placeholder="Опишите основные задачи исполнителя" maxlength="1500"></textarea> <br><br>
-        </form>
+        <!--</form>-->
       
       </aside>
 
       <footer>
         <!-- Конец запроса -->
-        <form action="" method="post">
+        <!-- <form action="" method="post" onsubmit="checkForm()"> -->
         <hr> 
-        <input type="submit" value="Сохранить как черновик">
-        <input type="submit" value="Создать запрос">
+        <div id="error" style="color: red;"></div>
+        <input type="submit" value="Сохранить как черновик"  onclick="return save(this)">
+        <input type="submit" value="Создать запрос" onclick="return report(this)">
         </form>
         <script></script>
       </footer>
 
+      <script src="js/main.js"></script>
     </Body>
 
     </html>
