@@ -65,7 +65,7 @@ function report(el) {
         fail = "Заполните все поля";
     else if(document.getElementById('name').value.lenght <= 1 || document.getElementById('name').value.lenght > 100)
         fail = "Введите корректное имя";
-    if(fail != ""){
+    if(fail != "") {
         document.getElementById('error').innerHTML = fail;
         return false;
     }
